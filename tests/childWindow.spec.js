@@ -1,5 +1,6 @@
 
 const { test, expect } = require('@playwright/test');
+const { describe } = require('node:test');
 
 test('childWindow', async({browser}) =>
 
